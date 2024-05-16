@@ -1,0 +1,26 @@
+* Scaffold-DbContext 'Data Source;Initial Catalog TechTalk; Integrated Security SSPI; TrustServerCertificate True' Microsoft.EntityFrameworkCore.SqlServer -Context AppDbContext -ContextDir Data -OutputDir Entities -Tables Speakers
+
+* Scaffold-DbContext 'Data Source;Initial Catalog TechTalk; Integrated Security SSPI; TrustServerCertificate True' Microsoft.EntityFrameworkCore.SqlServer -Context AppDbContext -ContextDir Data -OutputDir Entities -Schema dbo
+
+* Scaffold-DbContext 'Data Source;Initial Catalog TechTalk; Integrated Security SSPI; TrustServerCertificate True' Microsoft.EntityFrameworkCore.SqlServer -Context AppDbContext -ContextDir Data -OutputDir Entities
+
+* Scaffold-DbContext 'Data Source;Initial Catalog TechTalk; Integrated Security SSPI; TrustServerCertificate True' Microsoft.EntityFrameworkCore.SqlServer -Context AppDbContext -ContextDir Data 
+
+* Scaffold-DbContext 'Data Source;Initial Catalog TechTalk; Integrated Security SSPI; TrustServerCertificate True' Microsoft.EntityFrameworkCore.SqlServer -Context AppDbContext
+
+* Scaffold-DbContext 'Data Source;Initial Catalog TechTalk; Integrated Security SSPI; TrustServerCertificate True' Microsoft.EntityFrameworkCore.SqlServer -DataAnnotations -UseDatabaseName
+
+* Scaffold-DbContext 'Data Source;Initial Catalog TechTalk; Integrated Security SSPI; TrustServerCertificate True' Microsoft.EntityFrameworkCore.SqlServer -DataAnnotations
+
+* Scaffold-DbContext 'Data Source;Initial Catalog TechTalk; Integrated Security SSPI; TrustServerCertificate True' Microsoft.EntityFrameworkCore.SqlServer 
+--=====================================================================
+* dotnet ef dbcontext scaffold "Data Source; initia 1 catalog = TechTalk; Integrated Security = SSPI; TrustServerCertificate = TRUE;" Microsoft.EntityFrameworkC ore.SqlServer --data-annotations --table speakers-context AppDbContext --output-dir Entities --context-dir Data
+
+* dotnet ef dbcontext scaffold "Data Source; initia 1 catalog = TechTalk; Integrated Security = SSPI; TrustServerCertificate = TRUE;" Microsoft.EntityFrameworkC ore.SqlServer --data-annotations --table speakers -context AppDbContext --output-dir Entities 
+
+* dotnet ef dbcontext scaffold "Data Source; initia 1 catalog = TechTalk; Integrated Security = SSPI; TrustServerCertificate = TRUE;" Microsoft.EntityFrameworkC ore.SqlServer --data-annotations --table speakers -context AppDbContext
+
+* dotnet ef dbcontext scaffold "Data Source; initia 1 catalog = TechTalk; Integrated Security = SSPI; TrustServerCertificate = TRUE;" Microsoft.EntityFrameworkC ore.SqlServer --data-annotations --table speakers
+
+* dotnet ef dbcontext scaffold "Data Source; initia 1 catalog = TechTalk; Integrated Security = SSPI; TrustServerCertificate = TRUE;" Microsoft.EntityFrameworkC ore.SqlServer --data-annotations
+
